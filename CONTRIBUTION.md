@@ -12,26 +12,40 @@ Before you begin contributing, ensure that you have the necessary tools and envi
 1. fork the repo
 
 2. After forking repo to your account, clone the repo from your account to your local machine 
-```git clone <url>```
+```
+git clone <url>
+```
 
 3. change directory to project folder
-```cd <project folder>```
+```
+cd <project folder>
+```
 
 4. change directory to the FEM project to you want to work on
-```cd <fem project folder>```
+```
+cd <fem project folder>
+```
 
 5. create a new branch
-```git <branch name>```
+```
+git <branch name>
+```
 
 6. make your changes
 
 7. add your changes
-```git add .```
+```
+git add .
+```
 
 8. commit your changes
-```git commit -m "your commit message"```
+```
+git commit -m "your commit message"
+```
 
 9. push your changes
-```git push -u origin <branch name>```
+```
+git push -u origin <branch name>
+```
 
 10. create a pull request
