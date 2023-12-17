@@ -28,7 +28,7 @@ cd <fem project folder>
 
 5. create a new branch
 ```
-git <branch name>
+git branch <branch name>
 ```
 
 6. make your changes
