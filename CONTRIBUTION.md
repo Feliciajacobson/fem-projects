@@ -31,21 +31,26 @@ cd <fem project folder>
 git branch <branch name>
 ```
 
-6. make your changes
+6. switch to the newly created branch
+```
+git checkout <branch name>
+```
 
-7. add your changes
+7. make your changes
+
+8. add your changes
 ```
 git add .
 ```
 
-8. commit your changes
+9. commit your changes
 ```
 git commit -m "your commit message"
 ```
 
-9. push your changes
+10. push your changes
 ```
 git push -u origin <branch name>
 ```
 
-10. create a pull request
+11. create a pull request
