@@ -2,6 +2,8 @@
 
 This is a [challenge](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) by frontend mentor.
 
+Live link: https://social-proof-fem-lime.vercel.app/
+
 This project was developed using the mobile first approach.
 
 
