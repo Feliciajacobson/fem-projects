@@ -36,6 +36,7 @@ img {
 }
 
 body {
+  margin: auto;
   min-height: 100vh;
   font-family: "League Spartan", sans-serif;
   font-weight: 400;
