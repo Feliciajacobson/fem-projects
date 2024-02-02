@@ -29,13 +29,14 @@ img {
   height: auto;
 }
 
-
 /* styles */
 .main-container {
-  margin: 18px;
+  margin: 15px 0 0 10px;
+  padding: 0 12px;
 }
 
 body {
+  margin: auto;
   min-height: 100vh;
   font-family: "League Spartan", sans-serif;
   font-weight: 400;
@@ -45,14 +46,21 @@ body {
   background-position: top left, bottom right;
   background-color: var(--white);
   line-height: 1.5;
+  max-width: 375px;
 }
+
+/* .main-container {
+  width: 375px;
+} */
 
 .product-about__heading {
   color: var(--very-dark-magenta);
   font-size: 2.9rem;
   text-align: center;
   font-weight: 700;
-  line-height: 0.9;
+  line-height: 0.8;
+  letter-spacing: -1px;
+  margin-top: 5rem;
 }
 
 .product-about__txt {
@@ -61,7 +69,8 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.3;
-  
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .product-ratings p {
@@ -77,13 +86,61 @@ p[class*="product-ratings__"] {
   border-radius: 10px;
 }
 
-
 p[class*="product-ratings__"] img:nth-child(even) {
   margin: 0 5px 0 5px;
 }
 
 p[class*="product-ratings__"] span:last-child {
   color: var(--very-dark-magenta);
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1.1rem;
+}
+
+div[class*="customer__card"] {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 34px 38px;
+  margin-bottom: 16px;
+}
+
+.customer--colton {
+  margin-top: 48px;
+}
+
+div[class*="customer__profile"] {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 15px;
+}
+
+div[class*="customer__card"] img {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+}
+
+div[class*="customer__info"] {
+  line-height: 1.4;
+}
+
+div[class*="customer__card"] p:first-child {
+  font-weight: 700;
+}
+
+.customer__info p:nth-child(even) {
+  color: var(--soft-pink);
+}
+
+footer {
+  margin-top: 5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 7px;
+}
+
+footer a {
+  color: var(--soft-pink);
 }
