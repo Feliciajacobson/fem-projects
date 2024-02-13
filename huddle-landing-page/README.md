@@ -3,10 +3,10 @@
 ## Design Previews
 
 ### Mobile Preview
-![Mobile design](/designs/mobile-design.jpg)
+![Mobile design](./designs/mobile-design.jpg)
 
 ### Desktop Preview
-![Desktop design](/designs/desktop-design.jpg)
+![Desktop design](./designs/desktop-preview.jpg)
 
 ## Layout
 
