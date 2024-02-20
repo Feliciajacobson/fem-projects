@@ -1,12 +1,22 @@
-# Front-end Style Guide
+# About Project
+
+This is a [challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) by frontend mentor.
+
+Live link: [wip]
+
+This project was developed using the mobile first approach.
 
 ## Design Previews
 
 ### Mobile Preview
+
 ![Mobile design](./designs/mobile-design.jpg)
 
 ### Desktop Preview
+
 ![Desktop design](./designs/desktop-preview.jpg)
+
+## Front-end Style Guide
 
 ## Layout
 
@@ -19,7 +29,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Violet: hsl(257, 40%, 49%) 
+- Violet: hsl(257, 40%, 49%)
 - Soft Magenta: hsl(300, 69%, 71%)
 
 ## Typography
